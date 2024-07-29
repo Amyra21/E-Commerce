@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Package Pickup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Package Pickup</h2>
+  <form action="/pickup" method="POST">
+    <input type="text" name="pickupLocation" placeholder="Pickup Location" required>
+    <input type="datetime-local" name="pickupDateTime" required>
+    <button type="submit">Schedule Pickup</button>
+  </form>
+</div>
+
+</body>
+</html>

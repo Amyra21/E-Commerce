@@ -1,0 +1,154 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto','Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.form{
+    width: 400px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    background-color: #ccc;
+}
+/* Header styles */
+header {
+    background-color: #397580;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #fefefe;
+    padding: 0.9em;
+    text-align: center;
+}
+
+ ul {
+    list-style-type: none;
+}
+
+ ul li {
+    display: inline;
+    margin-right: 10px;
+    background-color: #1c3002;
+    border-radius: 0.4rem;
+    padding: .6rem;
+
+}
+
+ ul li a {
+    color: #fefefe;
+
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Container styles */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.0em;
+}
+.ABC{
+    font-size: small;
+    font-style: normal;
+}
+button{
+    border: none;
+    background-color: #000000;
+    color: #fefefe;
+    border-radius: .3rem;
+    padding: .6rem;
+}
+p{
+    font-size: 2.0em;
+    font-style: normal;
+    font-weight: 800;
+}
+/* Footer styles */
+footer {
+    background-color:#150224 ;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container styles for contact links */
+.contact-links-container {
+    margin-bottom: 20px;
+}
+
+/* Title styles */
+.final-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Link styles */
+.contact-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+.quote{
+    background-color: #000000;
+    font-size: larger;
+    text-align: center;
+    color: #fefefe;
+    font-style: italic;
+    padding: 100px;
+}
+
